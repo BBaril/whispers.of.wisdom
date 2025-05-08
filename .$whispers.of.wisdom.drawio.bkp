@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Whispers of Wisdom Flowchart" id="aHCzKMfT_MRhcJItYHlm">
+    <mxGraphModel dx="965" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-1" value="START" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-2" value="Hide from Goblins" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-3" value="Enter Cave" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-4" value="Left Path" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-5" value="Dice Roll: Fall/Injured" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-6" value="Wizard Rescue" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-7" value="Bat Library" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-8" value="Riddle Game + Insight Token" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="800" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-9" value="Symbol Puzzle + Memory Token" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="900" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-10" value="Lost Empire → Amos Portal" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1000" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-11" value="Back to Main Flow" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-12" value="Run to Castle" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-13" value="Castle Guards" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-14" value="Traveling Salesman" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-15" value="Bandit Encounter" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-16" value="Fight / Flee / Bargain" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-17" value="Troll War Enlistment" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-18" value="Tavern Choice / Enzo Bond" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-19" value="Bow Training + Connection Token" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-20" value="Troll Battle (Dice Roll)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-21" value="Healer Tent Game" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="800" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-22" value="Cloak Chase + Adaptability Token" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="800" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-23" value="Sir Wyndemis Appears" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="900" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-24" value="Solstice Party + Perception Token" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1000" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZy-3CFGb0z1ACgUJduD-25" value="Wisdom Tree Finale" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1100" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

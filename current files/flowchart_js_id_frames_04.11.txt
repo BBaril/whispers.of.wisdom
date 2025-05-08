@@ -1,0 +1,38 @@
+START
+ └── welcome
+     └── scene1: goblins_approach
+         ├── hide_in_trees
+         │   ├── left_cave_fall_check (DICE ROLL: 1-3 = fall/injury, 4-6 = soft_landing)
+         │   │   ├── soft_landing
+         │   │   │   └── mushroom_path
+         │   │   │       └── underground_stream
+         │   │   │           └── bat_librarian
+         │   │   │               ├── riddle_1 → bat_wrong_1 → riddle_2 → bat_wrong_2 (Scroll of Echoing Answers)
+         │   │   │               └── bat_correct (Insight Token)
+         │   │   │                   └── tunnel_wander
+         │   │   │                       ├── meet_wizard
+         │   │   │                       │   └── portal_roll (1-3 fail, 4-6 funny mishap) → amos_cameo
+         │   │   │                       └── lost_empire
+         │   │   │                           └── memory_symbol_puzzle (Memory Token)
+         │   │   │                               └── back_to_castle
+         │   │   └── fall_find_shard (Echo Shard)
+         │   │       └── wizard_rescue → joins soft_landing path
+         │   └── right_cave
+         │       └── spider_encounter (DICE: dodge/fight/rescue)
+         │           ├── optional_reward: spider_silk or lost_traveler
+         │           └── reconnects to tunnel_wander or mushroom_path
+         ├── run_to_castle
+         │   ├── traveling_salesman
+         │   │   └── bandit_encounter
+         │   │       ├── fight_bandits (DICE: 1-3 win, 4-6 injured)
+         │   │       ├── flee_bandits → merchant_bazaar
+         │   │       └── bargain_bandits → possible side quest
+         │   └── enlist_troll_war
+         │       └── tavern_choice (sleep/socialize)
+         │           └── bow_training_with_enzo (Connection Token)
+         │               └── troll_battle (DICE)
+         │                   ├── injured → healer_tent_game (Insight or Memory bonus)
+         │                   └── uninjured → cloak_chase
+         │                       └── sir_wyndemis (Adaptability Token)
+         └── solstice_party → perception_minigame (Perception Token)
+             └── wisdom_tree_finale (3 or 5 Tokens → custom ending)

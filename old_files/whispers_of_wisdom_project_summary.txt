@@ -1,0 +1,90 @@
+
+Whispers of Wisdom: Master Project Summary
+==========================================
+
+Project Overview
+----------------
+Whispers of Wisdom is a magical, interactive choose-your-adventure storybook built in React, designed for ages 7–10. The experience is lighthearted, humorous, and mystical, with optional lore depth and game mechanics inspired by Dungeons & Dragons and storytelling.
+
+Goal: Create an emotionally rich, engaging 30-minute adventure where children make choices, solve puzzles, collect tokens, and encounter magical creatures like Amos the Mouse.
+
+Technologies Used
+-----------------
+| Tool/Language     | Purpose                                |
+|-------------------|-----------------------------------------|
+| React             | Main framework (Next.js for structure)  |
+| JavaScript (ES6)  | Logic, components, interaction           |
+| HTML/CSS          | Scene layout, responsive design         |
+| Tailwind CSS      | Visual styling and spacing              |
+| Draw.io           | Story and logic mapping (scene flow)    |
+| Node v16.20.2     | Stable dev environment                  |
+| NPM / React-Scripts| Dependency and script management        |
+| Flutter (planned) | Future mobile integration               |
+| Git + GitHub      | Version control and project backups     |
+| Netlify           | Deployment (live hosted version)        |
+
+Game Mechanics
+--------------
+- Scene Flow: Controlled through storyData.js using unique scene IDs
+- Dice Rolls: onEnter: "ROLL_d6" + visible button
+- Sound System:
+  - playSound() for inline click effects
+  - playLoopingMusic() for ambient loops
+- Inventory & Tokens:
+  - awardToken() and awardItem()
+  - Triggers via onEnterToken, onEnterItem, and textId
+
+Tokens and Rewards
+------------------
+| Token | Earned From         | Purpose                                  |
+|-------|----------------------|------------------------------------------|
+| Echo Shard | soft_landing   | Signifies the ability to hear whispers   |
+| Scroll of Echoing Answers | bat_wrong_2 | Enchanted parchment, whisper lore |
+| Insight Token | bat_correct | Reward for solving the riddle            |
+
+Story Structure (Two Main Paths)
+--------------------------------
+1. Cave Path
+   - Dice Roll: soft/hard landing
+   - Mushroom Path → Tunnel
+   - Bat riddles and Wizard (meet/rescue)
+   - Puzzles, glowing mushrooms, memory token
+2. Castle Path (in planning)
+   - Join war or pretend to be a salesman
+   - Tavern rest → Meet Enzo
+   - Training & troll battle → Solstice Celebration
+   - Windemis (magical farting cloak)
+   - Wisdom Tree Circle finale
+
+Wisdom Stones (Endgame Collection)
+----------------------------------
+| Stone        | Path     | Scene Concept                         |
+|--------------|----------|----------------------------------------|
+| Memory       | Cave     | Ancient puzzle/hermit lore             |
+| Insight      | Bat      | Riddle solving                        |
+| Connection   | Castle   | Bonding with Enzo                     |
+| Adaptability | Castle   | Scene with Windemis                  |
+| Perception   | Castle   | Solstice party observation game      |
+
+Characters
+----------
+| Character       | Role / Personality                                |
+|------------------|---------------------------------------------------|
+| Amos the Mouse   | Magical guide, portal travel, story bridge       |
+| Bat Librarian    | Quirky riddler, offers scroll or token           |
+| The Wizard       | Possibly lost, wise, offers guidance             |
+| Sir Wyndemis     | Farting magical cloak with sass and flair        |
+| Enzo             | Brave swordsman, player’s ally at the castle     |
+| Hermit Healer    | Cave mystic, shares ancient tea puzzle           |
+| D&D Team (kids') | Future series adventurers, story hint characters |
+
+Style, Themes & Portfolio Highlights
+------------------------------------
+- Kid-friendly mysticism + humor
+- Sound interaction and replay value
+- Smooth UI with Tailwind CSS
+- Mobile-first planning
+- Expandable & modular code design
+- Ideal for showcasing React, storytelling, UI/UX design
+
+Great portfolio piece for UI/UX job applications.

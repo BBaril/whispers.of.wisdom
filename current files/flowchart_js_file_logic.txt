@@ -1,0 +1,68 @@
+WHISPERS OF WISDOM – BASE JS FLOW STRUCTURE
+
+📁 File: storyData.js
+------------------------
+- Exports an array of scene objects
+- Each scene includes:
+  {
+    id: "scene_id",
+    text: "Scene description...",
+    image: "scene_image.png",
+    onEnter: "playSound('scene_ambience')",
+    onEnterToken: "awardToken('Awareness')",
+    choices: [
+      { text: "Go left", next: "left_path" },
+      { text: "Go right", next: "right_path" }
+    ]
+  }
+
+📁 File: StoryEngine.js
+------------------------
+- Imports storyData
+- Tracks current scene via useState
+- Renders:
+  - Scene text
+  - Scene image
+  - Sound trigger (onEnter)
+  - Awarded items/tokens
+  - Choice buttons
+- Handles scene transition using:
+  - setCurrentScene(nextId)
+  - playSound(), awardToken(), awardItem()
+
+📁 File: gameHelpers.js
+------------------------
+- Utility functions:
+  - playSound(id)
+  - playLoopingMusic(id)
+  - rollDice(sides) → returns random number
+  - awardToken("TokenName")
+  - awardItem("ItemName")
+  - checkInventory("TokenName") → true/false
+- Used across scenes for logic triggers
+
+🗺 General Scene Flow:
+START → scene1
+  ├── Choice A → scene2 (gives Awareness Token)
+  └── Choice B → scene3 (triggers dice roll)
+      ├── Roll 1–3 → scene3a (injury)
+      └── Roll 4–6 → scene3b (safe path)
+
+🎮 Token Logic:
+- Tokens stored in state (React context or global object)
+- Each token triggers visual/audio response when collected
+- Can gate later scenes or change story text
+
+🔊 Audio Flow:
+- Ambient sounds triggered via onEnter
+- FX sounds tied to player actions (e.g., select choice, collect token)
+- Background music loops via playLoopingMusic()
+
+🌟 Replay System:
+- Players can restart at any time
+- Replayable scenes with different outcomes (dice rolls, riddles, choices)
+
+🧠 Future Expansion:
+- Add save/load state using localStorage
+- Mini-games integrated via "onEnterGame" key
+- Branching narrative complexity handled with flags or tags

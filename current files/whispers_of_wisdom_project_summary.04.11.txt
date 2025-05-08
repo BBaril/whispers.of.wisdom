@@ -1,0 +1,102 @@
+WHISPERS OF WISDOM – PORTFOLIO PROJECT SUMMARY (APRIL UPDATE)
+
+🎮 Overview:
+Whispers of Wisdom is a React-based interactive storybook web app for ages 7–10. Children collect 6 Wisdom Stones across two main branching paths, exploring lore-rich environments, solving educational puzzles, and forming emotional connections with memorable companions. The tone is mystical, empowering, and whimsical.
+
+🌟 Technologies Used:
+- React (App Router)
+- Tailwind CSS
+- JavaScript (ES6)
+- Custom sound and token system (playSound/onEnterSound, inventory management)
+- GitHub + Netlify for deployment
+- Modular `storyData.js` system for scene logic
+
+🧙 Core Characters & Elements:
+
+| Character             | Color   | Element | Role             | Trait        | Wisdom Stone     |
+|----------------------|---------|---------|------------------|--------------|------------------|
+| You (Red Fox)        | Red     | Fire    | Scout            | Passion      | Awareness        |
+| Enzo (Turtle)        | Green   | Earth   | Tank             | Bravery      | Connection       |
+| Sir Wyndemis (Cloak) | White   | Air     | Agile Swordsman  | Adaptability | Adaptability     |
+| Nimji (Bug)          | Blue    | Water   | Healer           | Empathy      | Empathy          |
+| Amos (Mouse)         | Purple  | Spirit  | Guide            | Guidance     | Wisdom           |
+| The Everheart        | Yellow  | Ether   | Catalyst         | Chaos        | Perception       |
+
+📜 Additional Characters:
+- Bat Librarian – Insight & riddles
+- Beaver Wizard – Misfiring magic, shard mishaps
+- Lady Fatty Patty – Comic relief + wisdom, frog with leaf hat
+- Healer (TBD) – Mystery tea logic game
+- Ranger – Cave-side rescuer
+- Bandit Leader – Castle dice-roll encounter
+- Market Vendors – Flavor characters & trading scenes
+
+🧩 Key Systems:
+- Dice-based encounters
+- Mini-games: memory, matching, deduction, logic
+- Collectibles: glowing mushrooms, frog-crafted items, scrolls
+- Inventory and token tracking system
+- Audio system: ambient & effect sounds by scene
+
+🌈 Highlights:
+- Whimsical lore and puzzle storytelling
+- Unique character-to-color-element alignment
+- Replayable structure with 3-, 5-, or 6-stone endings
+- Strong candidate for full children’s game demo or UI/UX design role
+
+📂 Project Path:
+C:/Users/db4ba/Documents/Projects/whispers.of.wisdom
+
+
+
+
+
+
+
+OLD OLD OLD OLD
+WHISPERS OF WISDOM – UPDATED PORTFOLIO PROJECT SUMMARY
+
+🎮 Overview:
+Whispers of Wisdom is a React-based interactive storybook web app for ages 7–10 that blends magical lore, educational moments, and game mechanics. Kids collect 6 Wisdom Stones across two main paths by making choices, solving puzzles, and meeting memorable animal companions.
+
+🌟 Technologies Used:
+- React (App Router)
+- Tailwind CSS
+- JavaScript ES6
+- Custom sound system (playSound/onEnterSound)
+- Dice-based mini-games, memory puzzles
+- Git + Netlify for versioning and deployment
+
+📖 Story Structure:
+- Two branching journeys (Cave Path and Castle Path)
+- Emotional arcs and puzzles determine Wisdom Stones collected
+- All characters are met on any full playthrough
+- Ending scene varies based on tokens: 3, 5, or 6
+
+🧙 Core Characters & Elements:
+- YOU: White Hare, 🌙 Moon, Air → Curiosity → **Awareness**
+- Enzo: Red Fox, 🔴 Circle, Fire → Bravery → **Connection**
+- Nimra: Blue Lightning Bug, 💧 Oval, Water → Empathy → **Empathy**
+- Wyndemis: Green Cloak, ▲ Triangle, Earth → Grounding → **Adaptability**
+- Amos: Purple Mouse, 💜 Spiral, Spirit → Guidance → **Wisdom**
+- Echo Shard: Yellow Diamond, ♦ Diamond, Ether → Chaos → **Perception**
+
+🧩 Key Systems:
+- `storyData.js` – Scene logic and content
+- `StoryEngine.js` – Navigation and state
+- `gameHelpers.js` – Dice, token/item tracking, audio triggers
+- `App.js` – Renders the story engine
+- Inventory & Token System: Tracks player progression
+- Sound Design: Custom ambient and event-based sounds
+
+🌈 Design Highlights:
+- Beautifully themed color/symbol system for each wisdom trait
+- Replayable branching structure with multiple outcomes
+- Emotional storytelling combined with educational mini-games
+- Magical creatures inspired by real family members and classic fantasy
+- Developed with scalability in mind (future Flutter & voice-ready)
+
+📂 Project Path:
+C:/Users/db4ba/Documents/Projects/whispers.of.wisdom
+
+A heartfelt, empowering, and magical experience—perfect for a UI/UX portfolio or children’s media demo.

@@ -1,0 +1,32 @@
+
+Whispers of Wisdom - Scene Flow Overview
+
+START
+  └── scene1
+        ├── run_to_castle (Not yet developed)
+        ├── write_cave (Not yet developed)
+        └── left_cave_fall_check (DICE ROLL)
+              ├── soft_landing
+              │     └── mushroom_path
+              └── fall_find_shard
+                    └── mushroom_path
+
+mushroom_path
+  └── tunnel_wanderer
+        ├── meet_wizard
+        ├── wizard_rescue
+        ├── bat_wrong_2
+        │     └── Grants Scroll of Echoing Answers
+        └── bat_correct
+              └── Grants Insight Token
+
+Tokens:
+  - Echo Shard → from soft_landing
+  - Scroll of Echoing Answers → from bat_wrong_2
+  - Insight Token → from bat_correct
+
+Future Characters/Scenes:
+  - Wizard appears in meet_wizard or wizard_rescue
+  - Amos the Mouse (Cameo or Guide character)
+  - Castle path to be developed
+  - D&D tie-in characters introduced by user’s children
