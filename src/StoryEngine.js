@@ -67,9 +67,10 @@ function StoryEngine() {
   return (
     <div>
       {currentId === "start" && (
-        <button onClick={handlePlayMusic} style={{ marginBottom: "10px" , backgroundColor: "#94bfc5"}}>
-          🎵 Click to Enjoy Music
+        <button onClick={handlePlayMusic} style={{ marginBottom: "10px", backgroundColor: "#94bfc5" }}>
+          <span role="img" aria-label="music">🎵</span> Click to Enjoy Music
         </button>
+
       )}
   
     {pendingRoll && (
@@ -86,7 +87,7 @@ function StoryEngine() {
           }
         }, 1500); // short pause to show roll result
       }}>
-        🎲 Roll the Dice
+        <span role="img" aria-label="dice">🎲</span> Roll the Dice
       </button>
       {lastRoll && <p>You rolled a {lastRoll}!</p>}
     </div>
